@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
 import { PwaInstallService } from './services/pwa-install.service';
+import { RouterOutlet } from '@angular/router';
 
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
+  imports:[RouterOutlet]
 })
 export class AppComponent {
   constructor(private pwaInstallService: PwaInstallService) {}

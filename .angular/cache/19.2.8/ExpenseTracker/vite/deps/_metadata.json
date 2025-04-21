@@ -1,31 +1,31 @@
 {
-  "hash": "b8416f4d",
+  "hash": "a83845e3",
   "configHash": "e55d1cf9",
-  "lockfileHash": "baf0d530",
-  "browserHash": "cf2f9047",
+  "lockfileHash": "2dde2eb5",
+  "browserHash": "30b4ccf6",
   "optimized": {
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "d6439fec",
+      "fileHash": "3a496170",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "c3b10899",
+      "fileHash": "6dd3caa9",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "5b97b2d4",
+      "fileHash": "19659fb4",
       "needsInterop": false
     },
     "@angular/service-worker": {
       "src": "../../../../../../node_modules/@angular/service-worker/fesm2022/service-worker.mjs",
       "file": "@angular_service-worker.js",
-      "fileHash": "a2707506",
+      "fileHash": "1da248ad",
       "needsInterop": false
     }
   },
