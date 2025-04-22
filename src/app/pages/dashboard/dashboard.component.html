@@ -1,26 +1,20 @@
-<div class="container">
-    <div class="row p-2">
-        <div style="background-color: #f0eefb;" class="card border-0 bg-primary rounded">
-            <div class="card-body p-2">
-                <div class="row">
-                    <small class="card-title">This Month</small>
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="row">
-                                <small>Income</small>
-                                <small>1200</small>
-                            </div>
-                        </div>
-                        <div class="col-4"></div>
-                        <div class="col-4">
-                            <div class="row">
-                                <small>Expenses</small>
-                                <small>1200</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>                
-            </div>
-          </div>
-    </div>
-</div>
+<ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="home" [routerLink]="['/tabs/home']">
+        <ion-icon name="home"></ion-icon>
+        <ion-label>Home</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="profile" [routerLink]="['/tabs/profile']">
+        <ion-icon name="person"></ion-icon>
+        <ion-label>Profile</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="settings" [routerLink]="['/tabs/settings']">
+        <ion-icon name="settings"></ion-icon>
+        <ion-label>Settings</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+  <router-outlet></router-outlet>
+  

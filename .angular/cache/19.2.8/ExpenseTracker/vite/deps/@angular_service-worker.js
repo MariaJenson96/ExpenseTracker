@@ -8,7 +8,6 @@ import {
   NgZone,
   Observable,
   Subject,
-  __spreadValues,
   filter,
   inject,
   makeEnvironmentProviders,
@@ -21,7 +20,11 @@ import {
   ɵɵdefineInjector,
   ɵɵdefineNgModule,
   ɵɵinject
-} from "./chunk-O3GD5JJL.js";
+} from "./chunk-X5NAQJL2.js";
+import "./chunk-7IZRYL2Z.js";
+import {
+  __spreadValues
+} from "./chunk-QHQP2P2Z.js";
 
 // node_modules/@angular/service-worker/fesm2022/service-worker.mjs
 var ERR_SW_NOT_SUPPORTED = "Service workers are disabled or not supported by this browser";
