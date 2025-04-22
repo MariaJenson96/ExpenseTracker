@@ -26,23 +26,15 @@
                 "input": "public"
               }
             ],
-            "styles": [
+            "styles": [              
               "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "node_modules/@ionic/angular/css/core.css",
-              "node_modules/@ionic/angular/css/normalize.css",
-              "node_modules/@ionic/angular/css/structure.css",
-              "node_modules/@ionic/angular/css/typography.css",
-              "node_modules/@ionic/angular/css/display.css",
-              "node_modules/@ionic/angular/css/padding.css",
-              "node_modules/@ionic/angular/css/float-elements.css",
-              "node_modules/@ionic/angular/css/text-alignment.css",
-              "node_modules/@ionic/angular/css/text-transformation.css",
-              "node_modules/@ionic/angular/css/flex-utils.css",
-              "src/theme/variables.css"
+              "node_modules/onsenui/css/onsenui.css",
+              "node_modules/onsenui/css/onsen-css-components.css"              
             ],
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "node_modules/onsenui/js/onsenui.min.js"
             ]
           },
           "configurations": {
@@ -50,8 +42,8 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "1MB",
-                  "maximumError": "1.5MB"
+                  "maximumWarning": "500kB",
+                  "maximumError": "1MB"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -100,22 +92,14 @@
               }
             ],
             "styles": [
-              "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "node_modules/@ionic/angular/css/core.css",
-              "node_modules/@ionic/angular/css/normalize.css",
-              "node_modules/@ionic/angular/css/structure.css",
-              "node_modules/@ionic/angular/css/typography.css",
-              "node_modules/@ionic/angular/css/display.css",
-              "node_modules/@ionic/angular/css/padding.css",
-              "node_modules/@ionic/angular/css/float-elements.css",
-              "node_modules/@ionic/angular/css/text-alignment.css",
-              "node_modules/@ionic/angular/css/text-transformation.css",
-              "node_modules/@ionic/angular/css/flex-utils.css",
-              "src/theme/variables.css"
+              "src/styles.css",
+              "node_modules/onsenui/css/onsenui.css",
+              "node_modules/onsenui/css/onsen-css-components.css"
             ],
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "node_modules/onsenui/js/onsenui.min.js"
             ]
           }
         },
