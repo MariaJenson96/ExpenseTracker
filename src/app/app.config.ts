@@ -9,5 +9,5 @@ export const appConfig: ApplicationConfig = {
   providers: [provideZoneChangeDetection({ eventCoalescing: true }), provideRouter(routes), provideServiceWorker('ngsw-worker.js', {
             enabled: true,
             registrationStrategy: 'registerWhenStable:30000'
-          }), provideIonicAngular(), provideIonicAngular({})]
+          }), provideIonicAngular()]
 };
