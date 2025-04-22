@@ -3,9 +3,9 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
 export const routes: Routes = [
     {
-      path: 'tabs',
+      path: 'tabs', component:DashboardComponent,
       children: [
-        { path: 'home', loadChildren: () => import('./pages/dashboard/dashboard.component').then(m => m.DashboardComponent) }
+        { path: 'home', component:DashboardComponent }
       ]
     }
   ];
